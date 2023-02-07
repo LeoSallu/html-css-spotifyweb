@@ -42,6 +42,8 @@ a{
 }
 img{
     width: 100%;
+    max-width: 50px;
+    display: block;
 }
 ul{
     list-style: none;
@@ -49,53 +51,51 @@ ul{
  i{
     color: white;
 }
+.large-device{
+    display: none;
+}
 /* 
-HEADER 
+MENU-LEFT
 */
-header{
+.menu-left{
     background-color: #080b12;
-    opacity: 80%;
-    position: fixed;
-    height: 3.125rem;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-header .container .btn{
-    justify-content: flex-end;
-    align-content: center;
-}
-.btn a{
-border: .0625rem solid white;
-padding: .3125rem;
-border-radius: 1.25rem;
-}
-/* 
-MAIN
-*/
-#col-left{
-    width: 10%;
     height: 100vh;
+}
+.menu-left{
+    justify-content: space-between;
+    align-items: center;
+}
+/* 
+MENU-RIGHT
+*/
+.menu-right-top{
     background-color: #080b12;
-    z-index: 1;
+    opacity: 95%;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
 }
-#col-right{
-    width: 90%;
-    height: 100vh; 
-    background-color: aqua;
-}
-.list{
-    height: 80%;
+.menu-right-top a .btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+
 }
 /* 
 FOOTER
 */
 footer{
-    z-index: 2;
-    background-color: #282828;
-    height: 90px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    background-color: #242424;
+    height: 80px;
+}
+
+
+/* 
+RESPONSIVE
+*/
+@media screen and (min-width:878px) {
+    .large-device{
+        display: block;
+    }
 }

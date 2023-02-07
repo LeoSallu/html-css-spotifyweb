@@ -15,48 +15,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- HEADER  -->
-    <header>
-        <div class="container">
-            <div class="btn flex m-10">
-                <a href="#" class="p-10">EFFETTUA L'UPGRADE</a>
+    <!-- MAIN  -->
+    <main id="container-big" class="flex">
+        <div class="menu-left flex column">
+            <div class="top flex">
+                <div class="svg-img">
+                    <div class="logo p-10">
+                        <a href="#"><img src="img/logo-small.svg" alt="logo-small"></a>
+                        <a href="#"><img class="large-device" src="img/logo.svg" alt="logo-normal"></a>
+                    </div>
+                    <div class="menu">
+                        <ul class="flex column">
+                            <li class="p-10"><a href="#"><img src="img/home.svg" alt="home"></a></li>
+                            <li class="p-10"><a href="#"><img src="img/libreria.svg" alt="library"></a></li>
+                            <li class="p-10"><a href="#"><img src="img/search.svg" alt="search"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-middle large-device">
+                <h2>PLAYLIST</h2>
+                <div>
+                    <div class="plus"><i class="fa-solid fa-plus"></i></div>
+                    <span>Crea playlist</span>
+                </div>
+                <div class="playlist flex">
+                    <ul>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                        <li><a href="#">Nome Playlist</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-bottom flex column">
+                <a href="#"><img src="img/download.svg" alt="download"><span class="large-device">Installa App</span></a>
+                <hr class="large-device">
+                <a href="#"><img src="img/profile.svg" alt="profile"></a>
             </div>
         </div>
-    </header>
-    <!-- /HEADER  -->
-    <!-- MAIN -->
-    <main>
-        <div class="container flex">
-            <div id="col-left">
-                <div class="logo p-10">
-                    <img src="img/logo-small.svg" alt="logo">
-                </div>
-                <div class="list flex column space-bet">
-                    <div class="m-10">
-                        <ul class="font-awesome">
-                            <li class="p-10"><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                            <li class="p-10"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                            <li class="p-10"><a href="#"><i class="fa-solid fa-window-restore"></i></a></li>                        
-                        </ul>
-                    </div>
-                    <div class="m-10">
-                        <ul class="font-awesome">
-                            <li class="p-10"><a href="#"><i class="fa-solid fa-circle-down"></i></a></li>
-                            <li class="p-10"><a href="#"><i class="fa-solid fa-user"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="col-right">
-
-            </div>
+        <div class="menu-right-top flex p-10">
+            <a href="#"> 
+                <div class="btn p-10">EFFETTUA UPGRADE</div>
+            </a>
         </div>
     </main>
-    <!-- /MAIN -->
-    <!-- FOOTER  -->
+    <!-- /MAIN  -->
     <footer>
-        
+
     </footer>
-    <!-- /FOOTER  -->
+
 </body>
 </html>
