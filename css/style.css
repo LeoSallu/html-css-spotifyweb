@@ -84,6 +84,18 @@ MAIN
     height: 100vh; 
     background-color: aqua;
 }
-.container #col-left .list:last-child{
-    align-items: flex-end;
+.list{
+    height: 80%;
+}
+/* 
+FOOTER
+*/
+footer{
+    z-index: 2;
+    background-color: #282828;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
