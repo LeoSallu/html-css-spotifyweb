@@ -24,6 +24,12 @@ body{
 .flex{
     display: flex;
 }
+.column{
+    flex-direction: column;
+}
+.space-bet{
+    justify-content: space-between;
+}
 a{
     text-decoration: none;
     color: gray;
@@ -33,6 +39,15 @@ a{
 }
 .m-10{
     margin: .625rem;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+ i{
+    color: white;
 }
 /* 
 HEADER 
@@ -54,4 +69,21 @@ header .container .btn{
 border: .0625rem solid white;
 padding: .3125rem;
 border-radius: 1.25rem;
+}
+/* 
+MAIN
+*/
+#col-left{
+    width: 10%;
+    height: 100vh;
+    background-color: #080b12;
+    z-index: 1;
+}
+#col-right{
+    width: 90%;
+    height: 100vh; 
+    background-color: aqua;
+}
+.container #col-left .list:last-child{
+    align-items: flex-end;
 }
