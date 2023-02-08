@@ -72,7 +72,10 @@ main{
 .user-download{
     margin-top: auto;
 }
-
+.list{
+    height: 240px;
+    overflow: auto;
+}
 
 
 
@@ -86,7 +89,9 @@ FOOTER
 footer{
     background-color: aqua;
     height: 90px;
+    align-items: center;
 }
+
 /* 
 RESPONSIVE
 */
