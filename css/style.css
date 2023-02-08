@@ -20,9 +20,7 @@ COMMON
 */
 body{
     font-family: 'Montserrat', sans-serif;
-}
-main{
-    height: 100vh;
+    color: gray;
 }
 .flex{
     display: flex;
@@ -45,7 +43,7 @@ a{
 }
 img{
     width: 100%;
-    max-width: 40px;
+    max-width:40px;
     display: block;
 }
 ul{
@@ -58,44 +56,37 @@ ul{
     display: none;
 }
 /* 
-MENU-LEFT
+MAIN  
 */
-.menu-left{
-    background-color: #080b12;
-    height: 100vh;
-    justify-content: space-between;
-    align-items: center;
+main{
+    height: calc(100vh - 90px);
 }
-.logo a img {
-    width: 100%;
-    max-width: 60px;
+#container-left{
+    width: 30px;
+    background-color: black;
 }
-/* 
-MENU-RIGHT
-*/
-.menu-right-top{
-    background-color: #080b12;
-    opacity: 95%;
-    justify-content:flex-end;
-    align-items: center;
-    width: 100vw;
-    height: 80px;
+#container-right{
+    width:calc(100% - 30px); 
+    background-color: brown;  
 }
-.menu-right-top a .btn{
-    border: 1px solid white;
-    border-radius: 20px;
-    color: white;
+.user-download{
+    margin-top: auto;
+}
 
-}
-/* 
-FOOTER
+
+
+
+
+
+
+
+/*
+FOOTER  
 */
 footer{
-    background-color: #242424;
-    height: 80px;
+    background-color: aqua;
+    height: 90px;
 }
-
-
 /* 
 RESPONSIVE
 */
@@ -105,5 +96,15 @@ RESPONSIVE
     }
     .small-device{
         display: none;
+    }
+    #container-left{
+        width: 230px;
+    }
+    .user-download img{
+        max-width: 20px;
+    }
+    .user {
+     margin: 0 10px;
+     border-top: 1px gray solid;
     }
 }

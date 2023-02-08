@@ -16,60 +16,91 @@
 </head>
 <body>
     <!-- MAIN  -->
-    <main id="container-big" class="flex">
-        <div class="menu-left flex column">
-            <div class="top flex">
-                <div class="svg-img">
-                    <div class="logo p-10">
-                        <a href="#"><img class="small-device" src="img/logo-small.svg" alt="logo-small"></a>
-                        <a href="#"><img class="large-device" src="img/logo.svg" alt="logo-normal"></a>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li class="p-10">
-                                <a href="#">
-                                    <img src="img/home.svg" alt="home">
-                                    <div class="large-device p-10">Home</div>
-                                </a>
-                            </li>
-                            <li class="p-10"><a href="#"><img src="img/libreria.svg" alt="library"></a></li>
-                            <li class="p-10"><a href="#"><img src="img/search.svg" alt="search"></a></li>
-                        </ul>
-                    </div>
-                </div>
+    <main class="flex">
+        <div id="container-left" class="flex column">
+            <div class="logo">
+                <a href="#">
+                    <img class="small-device" src="img/logo-small.svg" alt="logo-small">
+                    <img class="large-device" src="img/logo.svg" alt="logo">
+                </a>
             </div>
-            <div class="menu-middle large-device">
-                <h2>PLAYLIST</h2>
-                <div>
-                    <div class="plus"><i class="fa-solid fa-plus"></i></div>
-                    <span>Crea playlist</span>
-                </div>
-                <div class="playlist flex">
-                    <ul>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                        <li><a href="#">Nome Playlist</a></li>
-                    </ul>
-                </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"></a><img src="img/home.svg" alt="home"></li>
+                    <li><a href="#"></a><img src="img/libreria.svg" alt="library"></li>
+                    <li><a href="#"></a><img src="img/search.svg" alt="search"></li>
+                </ul>
+
             </div>
-            <div class="menu-bottom flex column">
-                <a href="#"><img src="img/download.svg" alt="download"><span class="large-device">Installa App</span></a>
-                <hr class="large-device">
-                <a href="#"><img src="img/profile.svg" alt="profile"></a>
+            <div class="playlist large-device p-10">
+                <div class="+">
+                    <i class="fa-solid fa-plus"></i><span>Crea Playlist</span>
+                </div>
+                <ul class="list p-10">
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                    <li><a href="#">Nome Playlist</a></li>
+                </ul>
+            </div>
+            <div class="user-download">
+                <div class="download">
+                    <img src="img/download.svg" alt="download">
+                    <span class="large-device">Installa app</span>
+                </div>
+                <div class="user">
+                    <img src="img/profile.svg" alt="profile">
+                    <span class="large-device">John Doe</span>
+                </div>
             </div>
         </div>
-        <div class="menu-right-top flex p-10">
-            <a href="#"> 
-                <div class="btn p-10">EFFETTUA UPGRADE</div>
-            </a>
+        <div id="container-right">
         </div>
     </main>
     <!-- /MAIN  -->
-    <footer>
+    <!-- FOOTER  -->
+     <footer class="flex space-bet">
+        <div class="foot-left">
+            <div class="foot-img">
+                <img src="img/sinister.jpeg" alt="sinister">
+            </div>
+            <div class="foot-txt">  
+                <h3>Sinister</h3>
+                <h4>Brano</h4>
+                <h4>Nome</h4>
+            </div>
+            <div class="foot-font-awesome flex">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-folder"></i>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="player">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward-step"></i>               
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+            <div class="time-bar">
+                
 
-    </footer>
+            </div>
+
+        </div>
+        <div class="foot-right">
+            <div class="">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+     </footer>
+    <!-- /FOOTER  -->
 
 </body>
 </html>
