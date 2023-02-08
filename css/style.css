@@ -21,6 +21,9 @@ COMMON
 body{
     font-family: 'Montserrat', sans-serif;
 }
+main{
+    height: 100vh;
+}
 .flex{
     display: flex;
 }
@@ -42,7 +45,7 @@ a{
 }
 img{
     width: 100%;
-    max-width: 50px;
+    max-width: 40px;
     display: block;
 }
 ul{
@@ -60,10 +63,12 @@ MENU-LEFT
 .menu-left{
     background-color: #080b12;
     height: 100vh;
-}
-.menu-left{
     justify-content: space-between;
     align-items: center;
+}
+.logo a img {
+    width: 100%;
+    max-width: 60px;
 }
 /* 
 MENU-RIGHT
@@ -97,5 +102,8 @@ RESPONSIVE
 @media screen and (min-width:878px) {
     .large-device{
         display: block;
+    }
+    .small-device{
+        display: none;
     }
 }
