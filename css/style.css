@@ -61,6 +61,7 @@ ul{
 /* 
          MAIN  
 */
+
 /*
 SIDE-BAR 
 */
@@ -123,17 +124,50 @@ CONTAINER ALBUM
             FOOTER  
 */
 footer{
-    background-color: aqua;
+    background-color: #282828;
     height: 90px;
     align-items: center;
 }
 .foot-album{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+}
+.foot-left{
+    max-height: 90px;
+}
+.foot-right{
+    align-items: center;
+}
+#play-icon{
+    font-size:30px;
+    padding: 10px;
+}
+.player{
+    text-align: center;
+}
+.time-bar{
+    align-items: center;
+    color: white;
+}
+.bar{
+    margin: 0 5px;
+    width: 500px;
+    height: 2px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.bar-vol{
+    margin: 0 5px;
+    width: 150px;
+    height: 2px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 20px;
 }
 
 /* 
-RESPONSIVE
+            RESPONSIVE
 */
 @media screen and (min-width:640px) and (max-width:878px) {
     .large-device{
@@ -184,3 +218,6 @@ RESPONSIVE
         color: white;
     }
 }
+/* 
+
+*/
