@@ -88,7 +88,7 @@ CONTAINER RIGHT
     background-color: black;  
 }
 .headbar{
-    background-color: #282828;
+    background-color: #141922;
     opacity: 85%;
 }
 .btn{
@@ -98,7 +98,16 @@ CONTAINER RIGHT
     border: 2px solid white;
     border-radius: 20px;
 }
-
+/* 
+CONTAINER ALBUM
+*/
+.container-album{
+    background-color: #141922;
+}
+.nav-top ul{
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 
