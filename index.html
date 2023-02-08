@@ -17,6 +17,7 @@
 <body>
     <!-- MAIN  -->
     <main class="flex">
+        <!-- SIDEBAR -->
         <div id="container-left" class="flex column">
             <div class="logo">
                 <a href="#">
@@ -26,11 +27,19 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#"></a><img src="img/home.svg" alt="home"></li>
-                    <li><a href="#"></a><img src="img/libreria.svg" alt="library"></li>
-                    <li><a href="#"></a><img src="img/search.svg" alt="search"></li>
+                    <li class="flex">
+                        <a href="#"></a><img src="img/home.svg" alt="home">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="flex">
+                        <a href="#"></a><img src="img/libreria.svg" alt="library">
+                        <a href="#">Libreria</a>
+                    </li>
+                    <li class="flex">
+                        <a href="#"></a><img src="img/search.svg" alt="search">
+                        <a href="#">Search</a>
+                    </li>
                 </ul>
-
             </div>
             <div class="playlist large-device p-10">
                 <div class="+">
@@ -65,8 +74,16 @@
                 </div>
             </div>
         </div>
+        <!-- /SIDEBAR -->
+        <!-- CONTAINER-RIGHT  -->
         <div id="container-right">
+            <div class="headbar">
+                <div class="btn flex p-10">
+                    <a  class="p-10" href="#">EFFETTUA L'UPGRADE</a>
+                </div>
+            </div>
         </div>
+        <!-- /CONTAINER-RIGHT  -->
     </main>
     <!-- /MAIN  -->
     <!-- FOOTER  -->

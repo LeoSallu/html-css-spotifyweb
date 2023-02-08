@@ -1,5 +1,5 @@
 /* 
-RESET
+                RESET
 */
 *{
     margin: 0;
@@ -16,7 +16,7 @@ lg: >878px
 */
 
 /* 
-COMMON
+            COMMON
 */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -43,7 +43,6 @@ a{
 }
 img{
     width: 100%;
-    max-width:40px;
     display: block;
 }
 ul{
@@ -56,18 +55,23 @@ ul{
     display: none;
 }
 /* 
-MAIN  
+         MAIN  
+*/
+/*
+SIDE-BAR 
 */
 main{
     height: calc(100vh - 90px);
+    overflow: hidden;
 }
 #container-left{
-    width: 30px;
+    width: 40px;
     background-color: black;
 }
-#container-right{
-    width:calc(100% - 30px); 
-    background-color: brown;  
+.menu ul li{
+    max-width: 40px;
+    align-items: center;
+   
 }
 .user-download{
     margin-top: auto;
@@ -75,6 +79,24 @@ main{
 .list{
     height: 240px;
     overflow: auto;
+}
+/*
+CONTAINER RIGHT 
+*/
+#container-right{
+    width:calc(100% - 30px); 
+    background-color: black;  
+}
+.headbar{
+    background-color: #282828;
+    opacity: 85%;
+}
+.btn{
+    justify-content: flex-end;
+}
+.btn a{
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 
@@ -84,18 +106,22 @@ main{
 
 
 /*
-FOOTER  
+            FOOTER  
 */
 footer{
     background-color: aqua;
     height: 90px;
     align-items: center;
 }
+.foot-album{
+    width: 80px;
+    height: 80px;
+}
 
 /* 
 RESPONSIVE
 */
-@media screen and (min-width:878px) {
+@media screen and (min-width:640px) {
     .large-device{
         display: block;
     }
