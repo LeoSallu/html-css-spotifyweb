@@ -29,20 +29,20 @@
                 <ul>
                     <li class="flex">
                         <a href="#"></a><img src="img/home.svg" alt="home">
-                        <a href="#">Home</a>
+                        <a class="large-device" href="#">Home</a>
                     </li>
                     <li class="flex">
                         <a href="#"></a><img src="img/libreria.svg" alt="library">
-                        <a href="#">Libreria</a>
+                        <a class="large-device" href="#">Libreria</a>
                     </li>
                     <li class="flex">
                         <a href="#"></a><img src="img/search.svg" alt="search">
-                        <a href="#">Search</a>
+                        <a class="large-device" href="#">Search</a>
                     </li>
                 </ul>
             </div>
-            <div class="playlist large-device p-10">
-                <div class="+">
+            <div class="playlist large-device">
+                <div class="plus p-10">
                     <i class="fa-solid fa-plus"></i><a href="#">Crea Playlist</a>
                 </div>
                 <ul class="list p-10">
@@ -64,13 +64,13 @@
                 </ul>
             </div>
             <div class="user-download">
-                <div class="download">
+                <div class="download flex">
                     <img src="img/download.svg" alt="download">
-                    <a href="#" class="large-device">Installa app</a>
+                    <a href="#" class="large-device p-10">Installa app</a>
                 </div>
-                <div class="user">
+                <div class="user flex">
                     <img src="img/profile.svg" alt="profile">
-                    <a href="#" class="large-device">John Doe</a>
+                    <a href="#" class="large-device p-10">John Doe</a>
                 </div>
             </div>
         </div>
@@ -172,43 +172,41 @@
     </main>
     <!-- /MAIN  -->
     <!-- FOOTER  -->
-     <footer class="flex space-bet">
-        <div class="foot-left p-10 flex">
-            <div class="foot-album p-10 flex">
-                <img src="img/sinister.jpeg" alt="sinister">
+     <footer>
+        <div class="footer-container flex">
+            <div class="foot-left flex p-10">
+                <img class="foot-album" src="img/sinister.jpeg" alt="sinister">
+                <div class="txt flex column p-10">
+                    <h3>Sinister</h3>
+                    <small>Brano</small>
+                    <small>Nome</small>
+                </div>
+                <div class="icon-left flex column">
+                    <i class="fa-solid fa-heart p-10"></i>
+                    <i class="fa-solid fa-folder p-10"></i>
+                </div>
             </div>
-            <div class="p-10">
-                <h3>Sinister</h3>
-                <h4>Brano</h4>
-                <h4>Nome</h4>
+            <div class="foot-mid flex column">
+                <ul class="icon-mid flex">
+                <li class="p-10"><i class="fa-solid fa-shuffle"></i></li>
+                <li class="p-10"><i class="fa-solid fa-backward-step"></i></li>
+                <li class="p-10"><i id="play-icon" class="fa-solid fa-play"></i></li>
+                <li class="p-10"><i class="fa-solid fa-forward-step"></i> </li>              
+                <li class="p-10"><i class="fa-solid fa-rotate-right"></i></li>
+                </ul>
+                <div class="time-bar flex">
+                    <small>0:25</small>
+                    <div class="bar"></div>
+                    <small>4:35</small>
+                </div>
             </div>
-            <div class="font-a p-10 column flex">
-                <i class="fa-solid fa-heart p-10"></i>
-                <i class="fa-solid fa-folder p-10"></i>
-            </div>
-        </div>
-        <div class="foot-mid p-10">
-            <div class="player">
-                <i class="fa-solid fa-shuffle"></i>
-                <i class="fa-solid fa-backward-step"></i>
-                <i id="play-icon" class="fa-solid fa-play"></i>
-                <i class="fa-solid fa-forward-step"></i>               
-                <i class="fa-solid fa-rotate-right"></i>
-            </div>
-            <div class="time-bar flex">
-                <small>0:25</small>
-                <div class="bar"></div>
-                <small>4:35</small>
-            </div>
-        </div>
-        <div class="foot-right p-10 flex">
-            <div class="p-10">
-                <i class="fa-solid fa-bars"></i>
-                <i class="fa-solid fa-desktop"></i>
-                <i class="fa-solid fa-volume-low"></i>
-            </div>
-            <div class="bar-vol">
-
+            <div class="foot-right flex">
+                <ul class="flex">
+                    <li><i class="fa-solid fa-bars"></i></li>
+                    <li><i class="fa-solid fa-desktop"></i></li>
+                    <li><i class="fa-solid fa-volume-low"></i></li>
+                </ul>
+                <div class="bar-vol flex"></div>
             </div>
         </div>
      </footer>

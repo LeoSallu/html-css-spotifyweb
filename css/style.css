@@ -52,7 +52,7 @@ img{
 ul{
     list-style: none;
 }
- i{
+i{
     color: white;
 }
 .large-device{
@@ -81,9 +81,16 @@ main{
 .user-download{
     margin-top: auto;
 }
+.user-download div img{
+    align-items: center;
+}
 .list{
     height: 240px;
     overflow: auto;
+}
+.plus i{
+    background-color: gray;
+    padding: 10px;
 }
 /*
 CONTAINER RIGHT 
@@ -126,44 +133,50 @@ CONTAINER ALBUM
 footer{
     background-color: #282828;
     height: 90px;
-    align-items: center;
 }
-.foot-album{
-    width: 70px;
-    height: 70px;
+.footer-container{
+    align-items: center;
+    max-height: 90px;
 }
 .foot-left{
-    max-height: 90px;
+    align-items: center;
+}
+.icon-mid{
+    align-items: center;
+    font-size: 12px;
 }
 .foot-right{
     align-items: center;
 }
-#play-icon{
-    font-size:30px;
-    padding: 10px;
+.foot-album{
+    width: 30px;
+    height: 30px;
 }
-.player{
-    text-align: center;
+#play-icon{
+    font-size:17px;
 }
 .time-bar{
     align-items: center;
     color: white;
+    font-size: 10px;
 }
 .bar{
-    margin: 0 5px;
-    width: 500px;
+    width: 130px;
     height: 2px;
     background-color: gray;
     border: 1px solid gray;
     border-radius: 20px;
 }
 .bar-vol{
-    margin: 0 5px;
-    width: 150px;
+    width: 85px;
     height: 2px;
     background-color: gray;
     border: 1px solid gray;
     border-radius: 20px;
+}
+.foot-right ul li{
+font-size: 12px;
+padding: .3125rem;
 }
 
 /* 
@@ -192,7 +205,9 @@ footer{
         text-align: center;
         color: white;
     }
-
+    .footer-container{
+        justify-content: space-between;
+    }
 }
 @media screen and (min-width:879px) {
     .large-device{
@@ -216,6 +231,9 @@ footer{
         margin: 5px;
         text-align: center;
         color: white;
+    }
+    .footer-container{
+        justify-content: space-between;
     }
 }
 /* 
