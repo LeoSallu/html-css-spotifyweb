@@ -237,5 +237,23 @@ padding: .3125rem;
     }
 }
 /* 
-
+EFFETTI
 */
+.nav-top ul li a:hover{
+    border-bottom: 1px solid #adff2f;
+    color: white;
+}
+.headbar .btn a:hover{
+    color: white;
+    border: 2px solid white;
+    scale: 1.2;
+}
+.menu ul li img:hover{
+    border-left:1px solid #adff2f ;
+}
+.playlist .plus a:hover {
+    color: white;
+}
+.playlist .list li a:hover {
+    color: white;
+}
